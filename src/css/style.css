@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input{
+    width: 20%;
+    background-color: blue;
+}
+input[type="number"]{
+ background-color: rgb(105, 105, 233);
+ color: white;
+ text-align: center;
+}
+#btn{
+    background-color: rgb(105, 105, 233);
+    color: white;
+}
+#titolo{
+    margin-top: 10%;
+    background-color: rgb(62, 62, 231);
+    text-align: center;
+    color: white;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow:  10px  10px 5px rgb(62, 62, 231),
+    -10px -10px 5px rgb(62, 62, 231),
+     10px -10px 5px rgb(62, 62, 231),
+    -10px  10px 5px rgb(62, 62, 231);
+    margin-bottom: 20px;
+    transition: 1s;
+}
+.container-fluid{
+    padding: 5%;
+    background-image: url(/src/img/sfondo/stelle.png);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1200px;
+}
+img{
+    width: 100%;
+    margin-top: 5%;
+}
+#contatinerRisultato{
+    background-color: rgb(62, 62, 231);
+    color: white;
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow:  10px  10px 5px rgb(62, 62, 231),
+    -10px -10px 5px rgb(62, 62, 231),
+     10px -10px 5px rgb(62, 62, 231),
+    -10px  10px 5px rgb(62, 62, 231);
+    transition: 1s;
+    
+}
+
+#risultato{
+    
+    border-radius: 5px;
+}
+#result{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#img{
+
+    margin-top: 40%;
+    background-color: rgb(36, 36, 226);
+    border-radius: 100%;
+    box-shadow:  15px  15px 10px rgb(62, 62, 231),
+    -15px -15px 10px rgb(62, 62, 231),
+     15px -15px 10px rgb(62, 62, 231),
+    -15px  15px 10px rgb(62, 62, 231);
+    transition: 1s;
+}
+
+@media only screen and (max-width: 400px) {
+
+    .container-fluid{
+        height: 669px;
+    }
+  
+  }
